@@ -1,0 +1,31 @@
+Tech:
+- React
+- Material UI
+- Flexbox
+- TMDB - API calls to a movie service
+    TMDB (The Movie Database)   - online crowdsourced database for movie and television information.
+        -  powered by its community.
+        https://www.themoviedb.org/
+    IMDB (Internet Movie Database)
+        - owned and operated by Amazon.
+- React flip move for ANIMATIONS
+- Deploy on firebase hosting
+
+Structure:
+    - header
+    - nav
+    - results
+
+TMDB website 
+    -> create an account -> login -> Settings (under profile icon)-> API -> Get 'API Key (v3 auth)' and 'API Read Access Token (v4 auth)' 
+    -> create /src/requests.js -> insert your API_Key and requests (Check: tmdb api https://developers.themoviedb.org/3/getting-started/introduction)
+    -> create /src/axios.js
+        axios - a library that we use to make requests to any sort of server or api endpoint.
+        > npm i axios
+
+> npm i react-text-truncate
+
+Animation: react-flip-move https://github.com/joshwcomeau/react-flip-move - to change from looking like a website to an actual app!
+    > npm i -S react-flip-move
+    in VideoCard.js add 'forwardRef(ref)'
+    in Results.js add <FlipMove></FlipMove>

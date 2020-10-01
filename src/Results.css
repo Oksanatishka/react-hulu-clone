@@ -1,0 +1,8 @@
+/* Adding '> div' to fix FlipMove component in Results.js  */
+/* .results {         */
+.results > div {
+    /* To display blocks responsive - use these 3 lines of code */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

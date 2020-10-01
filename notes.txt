@@ -17,7 +17,7 @@ Structure:
     - results
 
 TMDB website 
-    -> create an account -> login -> Settings (under profile icon)-> API -> Get 'API Key (v3 auth)' and 'API Read Access Token (v4 auth)' 
+    -> create an account -> login -> Settings (under profile icon)-> API -> Details tab; generate a new api key; Developer; Accept -> Type of use: website; Application URL - doesn't actually matter (can be random) -> Get 'API Key (v3 auth)' (we can check API Request with our api key if it's working - using Postman )
     -> create /src/requests.js -> insert your API_Key and requests (Check: tmdb api https://developers.themoviedb.org/3/getting-started/introduction)
     -> create /src/axios.js
         axios - a library that we use to make requests to any sort of server or api endpoint.
